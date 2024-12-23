@@ -5,7 +5,7 @@ const http = require('http');
 const logcb = (...args) => console.log.bind(this, ...args);
 const errcb = (...args) => console.error.bind(this, ...args);
 
-const uuid = (process.env.UUID || '123456').replace(/-/g, '');
+const uuid = (process.env.UUID || '134aaecd-8b73-4783-8ddf-9de77ac995a2').replace(/-/g, '');
 
 let wss;
 
