@@ -1,13 +1,7 @@
 {
-  "name": "my-websocket-server",
+  "name": "my-project",
   "version": "1.0.0",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js"
-  },
   "dependencies": {
-    "ws": "^8.0.0",
-    "http": "^0.0.1-security",
-    "net": "^1.0.2"
+    "ws": "^8.x"
   }
 }
